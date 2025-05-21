@@ -19,10 +19,17 @@
 let content = document.getElementById("content");
 let post = document.getElementById("post");
 let con = document.getElementById("create-post")
-let del = document.getElementById("delete");
-let add = document.getElementById("add").
 
 post.addEventListener("click", function(){
     console.log(content.value);
-    con.innerHTML = `<div><p>${content.value}</p></div>`
+    con.innerHTML = `<div><p>${content.value}</p>
+    <button id="removePost">Delete</button>
+    <button>Edit</button>
+    </div>`
+})
+
+let remPost = document.getElementById("removePost");
+
+remPost.addEventListener("click", function(){
+    con.innerHTML = `${""}`;
 })
