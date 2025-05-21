@@ -1,0 +1,123 @@
+/* 
+
+
+div{
+    background-color: blueviolet;
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+    border: 7px solid green;
+
+}
+
+
+.div2{
+     background-color: rgb(247, 243, 17);
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+    border: 6px dashed rgb(31, 15, 248);
+}
+
+
+.div3{
+     background-color: rgb(0, 255, 64);
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+    border: 5px dotted rgb(31, 15, 248);
+}
+
+
+
+.div4{
+     background-color: rgb(98, 0, 255);
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+    border: 10px double rgb(200, 255, 0);
+  
+}
+
+.div5{
+     background-color: rgb(217, 255, 0);
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+    border: 10px groove rgb(255, 0, 179);
+    
+  
+} */
+
+/* img {
+    height: 100%;
+    width: 800px;
+}
+
+.myInput {
+      width: 250px;
+      height: 40px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+    } */
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    box-sizing: border-box;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#post {
+    padding: 9px 6vw;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    margin-top: 0.7vw;
+    cursor: pointer;
+}
+
+#delete {
+    margin-left: 1vw;
+    padding: 9px 28px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#add {
+    padding: 9px 28px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#create-post {
+    background-color: azure;
+    padding: 0 7px;
+}
