@@ -22,14 +22,13 @@ let con = document.getElementById("create-post")
 
 post.addEventListener("click", function(){
     console.log(content.value);
-    con.innerHTML = `<div><p>${content.value}</p>
-    <button id="removePost">Delete</button>
+    con.innerHTML += `<div><p>${content.value}</p>
+    <button onclick="removePost(event)">Delete</button>
     <button>Edit</button>
     </div>`
+    content.value = "";
 })
 
-let remPost = document.getElementById("removePost");
-
-remPost.addEventListener("click", function(){
-    con.innerHTML = `${""}`;
-})
+function removePost(event) {
+    console.log(event.target.parentNode.remove());
+}
